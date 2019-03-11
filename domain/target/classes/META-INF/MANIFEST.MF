@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: identification-domain
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: krlsMM
+Implementation-Vendor-Id: com.rebeld.identification
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/identification/identification-domain
+Created-By: Maven Integration for Eclipse
+
