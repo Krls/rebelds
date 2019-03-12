@@ -3,7 +3,12 @@ package com.rebeld.identification.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(value=HttpStatus.INTERNAL_SERVER_ERROR, reason="I/O File error")
+/**
+ * Rebeld custom exception.
+ * @author krlsMM
+ *
+ */
+@ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR, reason = "I/O File error")
 public class RebeldException extends RuntimeException {
 
 	/**
@@ -16,9 +21,11 @@ public class RebeldException extends RuntimeException {
 	public RebeldException(String exceptionMsg) {
 		this.exceptionMsg = exceptionMsg;
 	}
-	public String getExceptionMsg(){
+
+	public String getExceptionMsg() {
 		return this.exceptionMsg;
 	}
+
 	public void setExceptionMsg(String exceptionMsg) {
 		this.exceptionMsg = exceptionMsg;
 	}

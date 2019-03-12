@@ -1,6 +1,7 @@
 package com.rebeld.identification.controller;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -37,8 +38,7 @@ public class RebeldController {
 	@RequestMapping(value = "/registerRebeld", method = RequestMethod.POST)
 	@ResponseBody
 	@ExceptionHandler({RebeldException.class})
-	public String registerRebeld(@RequestBody List<RebeldInformation> information) {
-		Boolean result = rebeldService.registerRebeld(information);
-		return result.toString();
+	public CompletableFuture<Boolean> registerRebeld(@RequestBody List<RebeldInformation> information) {
+		return rebeldService.registerRebeld(information);
 	}
 }
