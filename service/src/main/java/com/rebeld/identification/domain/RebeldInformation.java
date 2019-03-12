@@ -1,5 +1,7 @@
 package com.rebeld.identification.domain;
 
+import java.io.Serializable;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Data;
@@ -11,7 +13,13 @@ import lombok.Data;
  */
 @Data
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class RebeldInformation {
+public class RebeldInformation implements Serializable{
+	
+	/**
+	 * The serial version UID
+	 */
+	private static final long serialVersionUID = 6168371335200824518L;
+	
 	/**
 	 * The rebeld name.
 	 */
