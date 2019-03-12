@@ -25,7 +25,7 @@ Información de despliegue:
 
 Proyecto desarrollado con el framework Spring Boot y el gestor de dependencias MAVEN.
 - Una vez desplegado el proyecto en local, la URL de acceso es:
-    http://localhost:8082/identification-service/registerRebeld
+    http://localhost:8082/identification-service/api/registerRebeld
     
 - Un ejemplo de JSON para enviar el listado de rebeldes.
 [
