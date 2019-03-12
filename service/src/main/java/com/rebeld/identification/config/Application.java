@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * Spring configuration.
+ * @author krlsMM
+ */
 @EnableAutoConfiguration
 @ComponentScan("com.rebeld")
 @SpringBootApplication

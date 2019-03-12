@@ -20,6 +20,7 @@ import com.rebeld.identification.service.RebeldService;
  * @author krlsMM
  */
 @RestController
+@RequestMapping("/api")
 public class RebeldController {
 	
 	/**

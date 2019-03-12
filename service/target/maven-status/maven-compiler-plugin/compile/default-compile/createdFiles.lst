@@ -1,0 +1,5 @@
+com/rebeld/identification/config/Application.class
+com/rebeld/identification/controller/RebeldController.class
+com/rebeld/identification/service/RebeldService.class
+com/rebeld/identification/exception/RebeldException.class
+com/rebeld/identification/domain/RebeldInformation.class
